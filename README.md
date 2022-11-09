@@ -4,9 +4,22 @@
 
 ### 安装
 
-`pip install nonebot-plugin-reborn`
+1. pip安装
 
-注意：安装本插件前务必安装并载入[htmlrender](https://github.com/kexue-z/nonebot-plugin-htmlrender)
+        `pip install nonebot-plugin-reborn`
+
+2. 手动安装
+- 先克隆此仓库
+
+        `git clone https://github.com/Aziteee/nonebot_plugin_reborn.git`
+
+- 再将nonebot_plugin_reborn文件夹移动到src/plugins中
+
+- 最后载入插件
+
+        `nonebot.load_plugin("src.plugins.nonebot_plugin_reborn")`
+
+> ⚠️注意：安装本插件前务必安装并载入[htmlrender](https://github.com/kexue-z/nonebot-plugin-htmlrender)
 
 ### 使用
 
