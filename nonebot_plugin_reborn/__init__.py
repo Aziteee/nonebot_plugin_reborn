@@ -1,17 +1,12 @@
-import sys
-import json
 import random
-from pathlib import Path
 
 from nonebot import on_command
 from nonebot.adapters.onebot.v11 import MessageSegment
 
 from nonebot_plugin_htmlrender import get_new_page
-from .chart import get_chart_html
 
-data_file = open(Path(__file__).parent / 'result.json', encoding='utf-8')
-DATA = json.loads(data_file.read())
-data_file.close()
+from .chart import get_chart_html
+from .data import DATA
 
 RATE = []
 for item in DATA:
