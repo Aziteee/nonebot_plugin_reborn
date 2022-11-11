@@ -30,10 +30,10 @@ CHART_HTML = '''
     <div id="main"></div>
     <script type="text/javascript">
         const chart = echarts.init(document.getElementById('main'));
-        zoom = {{ZOOM}};
-        name = '{{NAME_EN}}';
-        coordinate = [{{LONGTITUDE}}, {{LATITUDE}}];
-        option = {
+        const zoom = {{ZOOM}};
+        const name = '{{NAME_EN}}';
+        const coordinate = [{{LONGTITUDE}}, {{LATITUDE}}];
+        const option = {
             backgroundColor: '#E8E8E8',
             geo: {
                 map: 'world',

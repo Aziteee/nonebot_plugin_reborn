@@ -32,7 +32,10 @@ class Reborn:
     birth_rate = 0
 
     def __init__(self):
-        bp_instance = DATA[self.__get_random_index()]
+        index = 0
+        while index == 0:
+            index = self.__get_random_index()
+        bp_instance = DATA[index]
         self.country_cn = bp_instance['cn']
         self.country_en = bp_instance['en']
         self.continent_en = bp_instance['continent']
