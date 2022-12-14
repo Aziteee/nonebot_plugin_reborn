@@ -31,7 +31,7 @@ CHART_HTML = '''
     <script type="text/javascript">
         const chart = echarts.init(document.getElementById('main'));
         const zoom = {{ZOOM}};
-        const name = '{{NAME_EN}}';
+        const name = "{{NAME_EN}}";
         const coordinate = [{{LONGTITUDE}}, {{LATITUDE}}];
         const option = {
             backgroundColor: '#E8E8E8',
