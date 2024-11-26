@@ -1,5 +1,8 @@
 # nonebot_plugin_reborn
 
+> **Warning**
+> 由于我不玩机器人了，所以此插件不再维护，但是欢迎 pr
+
 投胎模拟器的 Nonebot 2 版，移植自[GitHub - Uahh/Reborn: 投胎模拟器](https://github.com/Uahh/Reborn)
 
 ### 安装
